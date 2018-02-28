@@ -1,0 +1,4 @@
+1.W.A.P that convert celcius to fahrenhiet. 
+2.W.A.P that find the factorial of given number.
+3.W.A.P that print Fibonaci series.
+4.W.A.P to find number is divisable by two or not.
