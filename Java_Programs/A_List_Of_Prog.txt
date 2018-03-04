@@ -4,3 +4,9 @@ W.A.P that print Fibonaci series.
 W.A.P to find number is divisable by two or not.
 W.A.P to swap the number using three variable. 
 W.A.P to swap the numbers using two variable.
+W.A.P's that prints several paterns.
+W.A.P for Decimal to Binary Cconversion.
+
+
+ 
+
