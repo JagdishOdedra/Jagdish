@@ -18,23 +18,20 @@ describe('To test E2E Flow ',function(){
         
         element(by.buttonText('CONTINUE')).click();
     
-        var thankyouText = element(by.css('h1')).getText();
+        var thankyouText = element(by.css('h1')).getText();getTitle
         expect(thankyouText).toBe('Thank you');
         
     });
        var home_Page = require('../page/home_Page.js');
+        
     it('should be able to adopt an animal using POM pattern ',function(){
             home_Page.enterFieldValue('Jagdish Odedra');
             var getHomePageText = home_Page.getDynamicText();
             expect(getHomePageText).toBe('Jagdish Odedra');
-                
-                
-             home_Page.clickContinue();
-            
-       
-    
-    
-    
+           var animal_page = home_Page.clickContinue();
+           animal_page.selectAnimal(2);
+          var confirm_page =  animal_page.clickContinue();
+          expect(confirm_page.getTitle()).toBe('Thank you');
     });  
     
 });

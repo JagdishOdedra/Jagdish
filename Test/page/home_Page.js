@@ -1,5 +1,5 @@
    
-
+    require ('../page/animal_page.js');
 
 var home_Page = function(){
     
@@ -14,6 +14,7 @@ var home_Page = function(){
     
     this.clickContinue =function(){
         element(by.buttonText('CONTINUE')).click();
+        return require('./animal_page.js');
        
     };
     
